@@ -1,8 +1,9 @@
 //define functions here
 
 function getIt() {
-  $('p').on('click')
-  alert('Hey!')
+  $('p').on('click', function () {
+    alert('Hey!');
+  });
 }
 
 function frameIt() {
