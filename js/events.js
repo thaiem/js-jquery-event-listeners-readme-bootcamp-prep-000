@@ -7,13 +7,15 @@ function getIt() {
 }
 
 function frameIt() {
-  
+  $('img').on('load', function() {
+    
+  })
 }
 
 $(document).ready(function(){
 
 // call functions here
-  $('p').on("click", getIt);
+  getIt();
   $('img').on('load', frameIt);
 
 });
